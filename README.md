@@ -33,10 +33,10 @@ Screenshots:
 
 
 
-Name: 20–60 chars
-Email: Valid email
-Address: Max 400 chars
-Password: 8–16 chars, 1 uppercase, 1 special char
+Name: 20–60 chars  
+Email: Valid email  
+Address: Max 400 chars  
+Password: 8–16 chars, 1 uppercase, 1 special char  
 Role: admin, user, owner
 
 
