@@ -38,7 +38,7 @@ Screenshots:
 
 *Login page*
 
-![admin page](Admin.png)
+![admin page](admin.png)
 
 *Admin page*
 
