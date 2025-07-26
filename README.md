@@ -54,15 +54,15 @@ Screenshots:
 🔑 API Endpoints:
 
 Method	Endpoint	Description	Auth Required	Role.  
-POST	/api/users	Register new user	No	Any.  
-POST	/api/login	Login, returns JWT	No	Any.  
-GET	/api/users	Get all users	Yes	Admin.  
-GET	/api/stores	Get all stores	Yes	Any.  
-POST	/api/stores	Add a new store	Yes	Admin.  
-POST	/api/ratings	Submit/update a rating	Yes	User.  
-GET	/api/ratings/:storeId	Get ratings for a store	Yes	Any.  
-GET	/api/owner/ratings	Get ratings for owner’s stores	Yes	Owner.  
-POST	/api/update-password	Update password	Yes	Any.  
+POST	/api/users	Register new user	No.  
+POST	/api/login	Login, returns JWT	No.  
+GET	/api/users	Get all users.  
+GET	/api/stores	Get all stores.  
+POST	/api/stores	Add a new store.  
+POST	/api/ratings	Submit/update a rating.  
+GET	/api/ratings/:storeId	Get ratings for a store.  
+GET	/api/owner/ratings	Get ratings for owner’s stores.  
+POST	/api/update-password	Update password.  
 For protected routes, add header:.  
 Authorization: Bearer <your_token>
 
