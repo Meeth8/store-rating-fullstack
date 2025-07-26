@@ -36,15 +36,16 @@ POST	/api/users	Register new user	No	Any.
 POST	/api/login	Login, returns JWT	No	Any.  
 GET	/api/users	Get all users	Yes	Admin.  
 GET	/api/stores	Get all stores	Yes	Any.  
-POST	/api/stores	Add a new store	Yes	Admin
-POST	/api/ratings	Submit/update a rating	Yes	User
-GET	/api/ratings/:storeId	Get ratings for a store	Yes	Any
-GET	/api/owner/ratings	Get ratings for owner’s stores	Yes	Owner
-POST	/api/update-password	Update password	Yes	Any
-For protected routes, add header:
+POST	/api/stores	Add a new store	Yes	Admin.  
+POST	/api/ratings	Submit/update a rating	Yes	User.  
+GET	/api/ratings/:storeId	Get ratings for a store	Yes	Any.  
+GET	/api/owner/ratings	Get ratings for owner’s stores	Yes	Owner.  
+POST	/api/update-password	Update password	Yes	Any.  
+For protected routes, add header:.  
 Authorization: Bearer <your_token>
 
-📝 Validation Rules - 
+📝 Validation Rules:
+
 Name: 20–60 chars
 Email: Valid email
 Address: Max 400 chars
@@ -52,7 +53,8 @@ Password: 8–16 chars, 1 uppercase, 1 special char
 Role: admin, user, owner
 
 
-💡 Notes - 
+💡 Notes:
+
 All dashboards are protected by role.
 Passwords are hashed in the database.
 All forms have client-side and server-side validation.
