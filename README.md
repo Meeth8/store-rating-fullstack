@@ -1,14 +1,16 @@
-🏪 Store Rating Platform 
+🏪 Store Rating Platform:
 
 A full-stack web application for managing stores, users, and ratings, with role-based dashboards for Admin, Normal User, and Store Owner.
 
-🚀 Tech Stack - 
+🚀 Tech Stack:
+
 Frontend: ReactJS + Tailwind CSS
 Backend: ExpressJS (Node.js)
 Database: MySQL (Workbench)
 API: RESTful, JWT Authentication
 
-✨ Features - 
+✨ Features:
+
 User Roles: Admin, Normal User, Store Owner
 Authentication: Secure signup & login with JWT
 Admin Dashboard:
@@ -27,12 +29,13 @@ Form validation (Yup + React Hook Form)
 Role-based route protection
 
 
-🔑 API Endpoints - 
-Method	Endpoint	Description	Auth Required	Role
-POST	/api/users	Register new user	No	Any
-POST	/api/login	Login, returns JWT	No	Any
-GET	/api/users	Get all users	Yes	Admin
-GET	/api/stores	Get all stores	Yes	Any
+🔑 API Endpoints:
+
+Method	Endpoint	Description	Auth Required	Role,
+POST	/api/users	Register new user	No	Any,
+POST	/api/login	Login, returns JWT	No	Any,
+GET	/api/users	Get all users	Yes	Admin,
+GET	/api/stores	Get all stores	Yes	Any,
 POST	/api/stores	Add a new store	Yes	Admin
 POST	/api/ratings	Submit/update a rating	Yes	User
 GET	/api/ratings/:storeId	Get ratings for a store	Yes	Any
