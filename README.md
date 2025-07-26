@@ -28,6 +28,10 @@ Password Update & Logout for all roles
 Form validation (Yup + React Hook Form)
 Role-based route protection
 
+Screenshots:
+
+![image alt](signup.png)
+
 
 🔑 API Endpoints:
 
