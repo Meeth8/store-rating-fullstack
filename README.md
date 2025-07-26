@@ -1,4 +1,5 @@
-🏪 Store Rating Platform - 
+🏪 Store Rating Platform 
+
 A full-stack web application for managing stores, users, and ratings, with role-based dashboards for Admin, Normal User, and Store Owner.
 
 🚀 Tech Stack - 
