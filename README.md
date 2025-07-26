@@ -7,7 +7,6 @@ A full-stack web application for managing stores, users, and ratings, with role-
 Frontend: ReactJS + Tailwind CSS
 Backend: ExpressJS (Node.js)
 Database: MySQL (Workbench)
-API: RESTful, JWT Authentication
 
 ✨ Features:
 
