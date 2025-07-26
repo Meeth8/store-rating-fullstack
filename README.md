@@ -30,7 +30,7 @@ Role-based route protection
 
 Screenshots:
 
-![image alt](signup.png)
+![signup page](signup.png)
 
 
 🔑 API Endpoints:
