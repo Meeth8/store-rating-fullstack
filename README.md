@@ -34,6 +34,22 @@ Screenshots:
 
 *Sign up page*
 
+![login page](login.png)
+
+*Login page*
+
+![admin page](Admin.png)
+
+*Admin page*
+
+![user page](user.png)
+
+*User page*
+
+![owner page](owner.png)
+
+*Owner page*
+
 
 🔑 API Endpoints:
 
